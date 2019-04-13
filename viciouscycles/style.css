@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,700i,900|Special+Elite');
+
+body{
+    max-width: 1200px;
+    margin:auto;
+}
+
+nav {
+    
+    background-color:#0E0E0E;
+    font-size: 20px;
+    font-family:'Special Elite', cursive;
+    color:#f3f3f3;
+    padding:18px;
+}
+
+nav a {
+    padding:25px;
+    color:#f3f3f3;
+    text-decoration: none;
+    text-transform:uppercase;
+    
+}
+a:hover {
+    color:#A3620A;
+}
+header{
+    background-image:url(images/header-image.jpeg);
+    opacity:.90;
+    background-repeat:no-repeat;
+    background-size:cover;
+    
+    height:600px;
+    
+}
+nav {
+    opacity:1;
+    height:25px;
+    
+}
+
+h1 {
+ font-size:72px;
+ text-transform:uppercase;
+ font-family:'Special Elite', sans-serif;
+ text-align:center;
+ padding-top:75px;
+ font-weight:700;
+ color:#f3f3f3;
+}
+h2{
+ color:#f3f3f3;
+ text-align:center;
+ text-transform:uppercase;
+ font-size:36px;
+ font-family:'Special Elite';
+ font-weight:700;
+ margin-top:0px;
+ 
+ padding:0px;
+
+}
+.orange{
+ color:#A3620A;
+ font-weight:700;
+}
+
+button {
+    background-color:#0e0e0e;
+    color:#f3f3f3;
+    padding:5px;
+    text-transform:uppercase;
+    font-size:18px;
+    font-family: 'Lato';
+    font-weight:400;
+    letter-spacing:.1em;
+    border-radius:10px;
+    width:175px; 
+    margin-right:20px;
+
+}
+#buttons {
+    display:flex;
+    justify-content:center;
+}
+
+button:hover {
+    background-color:#545454;
+    font-weight:700;
+}
+main p {
+ font-family:'Lato', sans-serif;
+ color:#333;
+ width: 50%;
+ line-height: 1.8em;
+ float:left;
+}
+
+p.products{
+    float:left;
+}
+
+.logo {
+    width:200px;
+    height:40px;
+    padding-top: none;
+    margin-top:none;
+    z-index:1;
+    float:right;
+    
+    height:auto;
+}
+main {
+    padding: 25px 50px;
+}
+
+.blue-motorcycle, .motorbikes, .legendary, .vintage, .bicycle {
+    width:500px;
+    height:auto;
+    padding-left:50px;
+}
+
+.couple-motorcycle {
+    width:500px;
+    height:auto;
+    padding-right:50px;
+    float:left;
+}
+
+main a {
+    font-family:'Special Elite', sans-serif;
+
+}
+
+a.products {
+    padding-top:30px;
+    font-size:18px;
+    text-align:center;
+    float:right;
+}
+a.products:hover{
+    font-size:20px;
+}
+article::after {
+    content: "";
+    clear:both;
+}
+article:before{
+    content:"";
+    clear:both;
+}
+.ride{
+    clear:both;
+}
+a.ride{
+    padding-top:30px;
+    float:left;
+    clear:none;
+    width:300px;
+}
+
+footer{
+    clear:both;
+    background-color:#0e0e0e;
+    margin-top:50px;
+    height:280px;
+    margin-bottom:25px;
+}
+footer::after{
+    content="";
+    clear:both;
+    
+}
+footer ul {
+    list-style-type:none;
+    width:70%;
+    color:#545454
+}
+footer li {
+    font-family:'Lato';
+    font-size:16px;
+}
+footer h4{
+    color:#aaa;
+    font-family:'Special Elite';
+    font-size:20px;
+    padding-left:30px;
+}
+.contact{
+    width:50%;
+    display: inline-block;
+    line-height: 1.5em;
+    float:left;
+    background-color:#0e0e0e;
+}
+.contact::after {
+    content:"";
+    clear:both;
+    
+}
+footer p {
+    float:right;
+    display: inline-block;
+    font-family: 'Lato';
+    color:#545454;
+    text-align:left;
+    padding-right:150px;
+    background-color:#0e0e0e;
+}
+.links {
+    width:30%;
+    display:inline-block;
+    background-color:#0e0e0e;
+    float:right;
+    padding-top:50px;
+}
+.links a {
+    text-decoration: none;
+    font-family: 'Lato';
+    color:#545454;
+    line-height:1.5em;
+    
+}
+.links a:hover{
+    color:#a3620a;
+}
+
+img.social-media {
+    padding-left: 25px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+input, textarea{
+    margin:auto;
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.submit:hover {
+    background-color:#A3620a;
+}
+
+.spacer {
+    height:75px;
+}

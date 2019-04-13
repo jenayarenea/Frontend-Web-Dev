@@ -1,0 +1,107 @@
+@page {
+    size:letter portrait;
+}
+@media print{
+body {
+    border: none;
+    max-width:8.5in;
+    margin:auto;
+}
+}
+main{
+    width: 8.5in;
+    /*margin:auto;*/
+}
+
+td, th {
+    border: 1px solid  #6EAB9B;
+    border-spacing: 0;
+    margin: 0;
+    font-family:'BenchNine', sans-serif;
+    letter-spacing: .1em;
+    font-size:21px;
+    /*color:#5D5A63;*/
+    color:darkslategrey;
+    font-weight:bold;
+    padding-left:.11in;
+    padding-right:.11in;
+    padding-top:initial;
+    padding-bottom:initial;
+}
+th {
+    color:#0E606B;
+    height:.5in;
+    font-size:25px;  
+    font-weight:bolder;
+}
+body {
+    width:8.5in;
+    height:11in;
+    margin: 0;
+    
+}
+
+table {
+    border:none;
+    border-spacing: 0;
+    margin:.5in .55in;
+    float: left;
+}
+td{
+    text-align: center;
+    height: 1.25in;
+    width: 1.25in;
+    border-left:none;
+    border-right:none;
+}
+
+h1, h2{
+    margin:auto .25in;
+    width:8in;
+}
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker',cursive;
+    font-size:48px;
+    color:#6EAB9B;    
+    letter-spacing: .3em;
+}
+h2 {
+    text-align: center;
+    padding:0;
+}
+/*#grade-icon{
+    border-radius:50%;
+    margin:0;
+    border:8px solid #0E606B;  
+    height:2.5in;
+    width:2.5in;
+    position: absolute;
+    left:7in;
+    top:-1in;
+    overflow: hidden;
+    z-index:-1;
+}*/
+
+#hour{
+    position:absolute;
+    z-index:-1;
+    left:2.47in;
+    top:1.75in;
+    border-spacing:.55in;
+    
+}
+table.no-border, tr.no-border, td.no-border{
+    border:0px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+}
+td.no-border{
+    border-radius:75%;
+    height:.75in;
+    width:.75in;
+    border: solid 2px darkslategrey;
+}
+.color-blue{
+    color:#0E606B;    
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mana Church Guest Card</title>
+<link rel="stylesheet" type="text/css" href="managuestcard.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,600|Montserrat:400,600" rel="stylesheet">
+<!-- /*<style>
+	body {
+	  background-color:orange;
+	}
+</style>*/ --> 
+</head>
+<body>
+<section>
+<header class="header">
+	<img class="mana-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjHTvCHMR931RRSh2i1yqIyphPAy3R8Mxk-WBU6IGmoA31Iw6S">
+	<h1><span class="bold"><span class="guest">Guest <span><span class="card">Card</span></h1></span>
+</header>
+	<form>
+	  <fieldset class="basicinfo">
+		<p><label for="date" class="field"><span class="orange">Date</span> Attended</label>
+			<input id="date"type="text"></p>
+		<p><label for="name/spouse" class="field"><span class="orange">Name/</span>Spouse</label>
+			<input id="name/spouse" type="text" required></p>
+		<p>
+			<p class="update-info"><input id="info"type="checkbox">
+			<label for="info">Update My Info.</label></p>
+		<p><label class="orange" for="address">Address</label>
+			<input id="address"type="text"></p>
+		<p><label class="orange"for="date">Phone</label>
+			<input type="tel" pattern="numeric" maxlength="10"></p>
+			<!--pattern=".{0,10}" required title="EITHER 0 OR (10 digit number)"-->
+		<p><label class="orange"for="email">Email</label>
+		  <input id="email" type="email" required></p>
+	  </fieldset>
+	 <div id=age class="selected">
+		<table>
+			<tr>
+		 <td><label class="orange">Age</label></td>
+		 <td><input id="age"value="12-19"name="age" type="radio">
+		<label for="age">12-19</label></td>
+			<td><input id="age"value="20-29" name="age" type="radio">
+		 <label for="age">20-29</label></td>
+			<td><input id="age"value="30-39"name="age"type="radio">
+		 <label for="age">30-39</label></td>
+			<td><input id="age"value="40-49"name="age"type="radio">
+		 <label for="age">40-49</label></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td><input id="age"value="50-59"name="age"type="radio">
+		 <label for="age">50-59</label></td>
+			<td><input id="age"value="60+" name="age"type="radio">
+		 <label for="age">60+</label></td>
+		  <td></td>
+		  <td></td>
+		  </tr>
+		  </table>
+		</p>
+	 </div>
+	 <div id="status" class="selected">
+	 <p><input id="relationship"value="married" name="relationship" type="radio">
+		<label class="orange"for="relationship">Married</label>
+		<input id="relationship"value="single" name="relationship"type="radio">
+		<label class="orange"for="relationship">Single</label></p>
+		<div id="children">
+			<label><span class="orange">Children(s)</span> Names &amp; <span class="orange">Birth</span> Dates</label>
+			<br>
+				<textarea rows="10" cols="30">
+				</textarea>
+		</div>
+			<p><span class="orange">I am attending in</span> response to:</p>
+			<p><label for="invitation"><span class="orange">A personal</span> invitation by:</label>
+				<input id="invitation" type="text"></p>
+			<div id="sources" class="selected">
+				<table>
+					<tr>
+				<td><input id="phonebook" type="checkbox">
+			<label for="phonebook"><span class="orange">Phone</span> Book</label></td>
+			<td><input id="flyer/mailer"type="checkbox" value="flyer/mailer">
+			<label for="flyer/mailer"><span class="orange">Flyer/</span>Mailer</label></td>
+			<td><input id="newspaper" type="checkbox" value="newspaper">
+			<label for="newspaper"><span class="orange">News</span>paper</label><br></td>
+					</tr>
+					<tr>
+			<td><input id="drivingby" type="checkbox" value="drivingby">
+			<label for="drivingby"><span class="orange">Driving</span> By</label></td>
+			<td><input id="website" type="checkbox" value="website">
+			<label for="website"><span class="orange">Web</span>site</label></td>
+			<td><input id="churchmember"type="checkbox" value="churchmember">
+			<label for="churchmember"><span class="orange">Church</span> Member</label><br></td>
+				    </tr>
+					</table>
+				<table>
+				<tr>
+			<td><input id="other" type="checkbox" value="other">
+			<label class="orange" for="other">Other:</label></td>
+			<td><input type="text"></td>
+				</tr>
+			</table>
+		</div>
+		<div id="interested" class="selected">
+			<p><span class="orange">I am</span> interested in:</p>
+			<input id="christian" type="checkbox">
+			<label for="christian"><span class="orange">Becoming a</span> Christian</label><br>
+				<input id="waterbaptism" type="checkbox">
+			<label for="waterbaptism"><span class="orange">Water</span> Baptism</label><br>
+				<input id="holyspirit" type="checkbox">
+			<label for="holyspirit"><span class="orange">Baptism of</span> the Holy Spirit</label>
+		</div>
+		<p><input id="subscribe"type="checkbox">
+		<label for="subscribe"><span class="orange">Subscribe to</span> our Newsletter</label></p>
+		<input type="submit">
+	</form>
+</section>
+	<footer>
+		<img class="socialmedialogo" src="">
+		<!--Facebook-->
+		<img class="socialmedialogo" src="">
+		<!--Twitter-->
+		<img class="socialmedialogo" src="">
+		<!--Instagram-->
+	</footer>
+</body>
+</html>
